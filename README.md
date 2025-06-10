@@ -1,6 +1,6 @@
 Task 1: Deploy Both Flask and Express on a Single EC2 Instance
 
-Terraform init and validate /n
+Terraform init and validate \n
 <img width="567" alt="image" src="https://github.com/user-attachments/assets/c0df182e-7018-4e81-b032-6d4ffe3e6163" />
 
 S3 backend with tfstate file
