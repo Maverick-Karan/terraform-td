@@ -1,0 +1,35 @@
+.DS_Store
+*.DS_Store
+
+# Local .terraform directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variable files (can contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Override files (not meant to be versioned)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive plan output
+*.plan
+
+# Ignore backup files
+*.backup
+
+# macOS & editor junk (optional)
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
