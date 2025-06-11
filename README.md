@@ -1,5 +1,5 @@
-Task 1: Deploy Both Flask and Express on a Single EC2 Instance
-
+Task 1: Deploy Both Flask and Express on a Single EC2 Instance  
+  
 Terraform init and validate  
 <img width="567" alt="image" src="https://github.com/user-attachments/assets/c0df182e-7018-4e81-b032-6d4ffe3e6163" />
 
@@ -33,7 +33,53 @@ Verify Data in MongoDB
 <img width="1494" alt="image" src="https://github.com/user-attachments/assets/a1adb9b4-61a6-4d62-8d82-c74e3a827825" />
 
 Terraform destroy  
-<img width="588" alt="image" src="https://github.com/user-attachments/assets/d860541b-cf34-4e51-8d3b-f5c9e95fec64" />
+<img width="588" alt="image" src="https://github.com/user-attachments/assets/d860541b-cf34-4e51-8d3b-f5c9e95fec64" /> 
+
+-----------------------------------------------------------------------------------  
+  
+TASK 2: Deploy Flask and Express on Separate EC2 Instances  
+
+
+terraform init and validate  
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/e146bdc8-095e-43fa-ae1f-946f2608662f" />  
+  
+S3 backend with tfstate file  
+<img width="1493" alt="image" src="https://github.com/user-attachments/assets/4c00aa69-6e7b-4ea7-a4d5-db25e857eea5" />  
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/0d6611e7-7c71-474c-a3f1-56a731de5d31" />  
+  
+Terraform plan  
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/3dd483c0-4221-4c33-a8ab-1e28de278fdd" />  
+<img width="541" alt="image" src="https://github.com/user-attachments/assets/a1532551-6ac8-4c19-9e4c-cbc1ae99f9b0" />  
+
+terraform apply -auto-approve  
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/93106408-1733-4d18-a332-661683287710" />
+
+EC2 running (frontend and backend)  
+<img width="1507" alt="image" src="https://github.com/user-attachments/assets/08333b96-93a5-49fc-ad1b-2ec9b746f2b8" />  
+
+Verify frontend and backend are running  
+<img width="1062" alt="image" src="https://github.com/user-attachments/assets/ab908483-220a-43f7-adac-c7bd98fa0079" />  
+<img width="830" alt="image" src="https://github.com/user-attachments/assets/88bdec57-1013-498d-9c46-d318eff2d3d5" />  
+  
+Dynamically updated the Public IP of the backend in the frontend (app.js)  
+<img width="580" alt="image" src="https://github.com/user-attachments/assets/f44c7e2a-11e5-4dde-ad2b-378a3db5edea" />  
+
+Accessed app via public IP  
+<img width="362" alt="image" src="https://github.com/user-attachments/assets/17c7b09a-0ae3-406d-8492-d91151975bf0" />  
+<img width="414" alt="image" src="https://github.com/user-attachments/assets/234557f1-be29-4a3c-b112-67752f5b71f9" />  
+
+Verify Data in MongoDB  
+<img width="971" alt="image" src="https://github.com/user-attachments/assets/db4fbf49-3c56-45f1-93c1-66c8935cb7d9" />  
+
+Terraform destroy  
+<img width="577" alt="image" src="https://github.com/user-attachments/assets/3148bd3f-0b86-45d1-9b72-00b6cf7b05dd" />  
+
+-----------------------------------------------------------------
+
+
+
+
+
 
 
 
