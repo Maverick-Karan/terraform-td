@@ -25,3 +25,9 @@ variable "ami_id" {
 variable "subnet_id" {
   default = "subnet-0aed982d9531b1a12"
 }
+
+variable "sg_backend" {
+  default     = "sg-06add2d3e3071a62b"
+  description = "Allow access from frontend SG only"
+  type        = string 
+}
