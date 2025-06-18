@@ -76,6 +76,92 @@ Terraform destroy
 
 -----------------------------------------------------------------
 
+TASK 3: Deploy Flask and Express as Docker containers using AWS ECR, ECS, and VPC with Terraform  
+
+Build Docker images(frontend and backend) locally  
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/c2427cae-8d92-4b9c-a606-cc75d67fd441" />  
+
+Tagged images for ECR  
+<img width="901" alt="image" src="https://github.com/user-attachments/assets/7b5a8699-2c28-45b7-8e2a-7ce92809782f" />  
+
+Pushed to ECR  
+<img width="803" alt="image" src="https://github.com/user-attachments/assets/00533c31-e81c-406b-b760-9ef93daf5b83" />  
+
+Terraform init, validate  
+<img width="606" alt="image" src="https://github.com/user-attachments/assets/322bafc9-c598-405e-8cba-c2edf830090a" />  
+
+S3 remote backend  
+<img width="1497" alt="image" src="https://github.com/user-attachments/assets/7c322cc7-3ce7-4651-b8f5-30c858efa320" /> 
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/6218ea67-7a59-4173-988c-e1f7bafdf8ad" />  
+
+Terraform plan  
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/18bb5bb8-31a9-47df-bea6-9f291cf2307a" />  
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/ad0486a9-f729-411f-9b18-f72c8b1b1adc" />  
+
+Terraform apply -auto-approve  
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/1f8e7c35-fea2-45e0-99af-367d78670b0a" />  
+
+ECR  
+<img width="1230" alt="image" src="https://github.com/user-attachments/assets/7564a88c-b61a-4273-9ddd-bbb52890c6f8" />  
+
+VPC  
+<img width="1268" alt="image" src="https://github.com/user-attachments/assets/bf00f3c7-4c1b-4b0a-a277-e1e7a98f24e4" />  
+
+Subnets  
+<img width="1294" alt="image" src="https://github.com/user-attachments/assets/fc51650a-c1aa-491c-acd5-8c747864ed50" />  
+
+Route Table
+<img width="1432" alt="image" src="https://github.com/user-attachments/assets/84f2ac5b-af16-4f98-8cda-29a40743a484" />  
+
+IGW  
+<img width="1077" alt="image" src="https://github.com/user-attachments/assets/a00d7a13-3b1d-4aee-9698-1f49e59fbe2f" />
+
+Security Groups  
+<img width="1368" alt="image" src="https://github.com/user-attachments/assets/3e7f1e97-8050-4750-ba1f-fa4db5251186" />
+
+Application Load Balancers  
+<img width="1253" alt="image" src="https://github.com/user-attachments/assets/4dc0d395-eded-4434-b827-42b11d633c3d" />  
+
+Target Groups  
+<img width="1260" alt="image" src="https://github.com/user-attachments/assets/25c2f399-2811-44b4-945b-3281002586ee" />  
+
+ECS  
+<img width="1224" alt="image" src="https://github.com/user-attachments/assets/39bae5e3-96ea-4046-8758-342f9fb40fec" />  
+  
+Task definitions  
+<img width="963" alt="image" src="https://github.com/user-attachments/assets/1e051af1-a845-4120-95e3-bd585ccd319a" />  
+
+Services (frontend and backend)  
+<img width="1210" alt="image" src="https://github.com/user-attachments/assets/bec8b6ce-54d8-4d64-a8c8-c58ca92c442b" />  
+
+Tasks (frontend and backend)  
+<img width="1215" alt="image" src="https://github.com/user-attachments/assets/7b1c5234-b6b3-4607-aa3e-98ca74edb022" />  
+
+Cloudwatch logs  
+<img width="1234" alt="image" src="https://github.com/user-attachments/assets/2485c640-107f-4942-9fca-fe2dc8d4e73c" />  
+
+Accessing the frontend via ALB DNS  
+<img width="624" alt="image" src="https://github.com/user-attachments/assets/53cb10aa-f32f-4281-8dbe-203904c70165" />  
+
+Success Page  
+<img width="320" alt="image" src="https://github.com/user-attachments/assets/b6b2ddda-4aee-4363-8fff-cfca9f1b787b" />  
+
+MongoDB data  
+<img width="1297" alt="image" src="https://github.com/user-attachments/assets/15e29db5-4dd6-40c2-a6a6-197d2e02dfa3" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
